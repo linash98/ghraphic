@@ -1,0 +1,52 @@
+hr{
+    width: 75px !important;
+    font-weight: bold;
+}
+.part1 p{
+  font-weight: lighter;
+  font-size: 30px;  
+    
+}
+.part1 h5,h3{
+    letter-spacing:5;
+    line-height: 1.5;
+    
+}
+.video{
+   
+    width: 100%;
+    height: 50%;
+    margin-top: 100px;
+}
+.video .js-video-simple{
+    height: 200%;
+    width: 150%;
+    margin:  0 !important;
+    padding: 0 !important;
+}
+.part2{
+    background: rgb(15, 15, 15);
+    color:white;
+    width: 100%;
+    height: 700px;
+  padding:10%;
+    align-items: center;
+    text-align: center;
+
+}
+.part2 .row{
+    padding: 20%;
+    margin-top: 60px;
+}
+@media (max-width:400px) {
+    .video{
+        background: none;
+        margin: 0;
+        width: 100%;
+    }
+  .video .js-video-simple{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 2px;
+   } 
+}
